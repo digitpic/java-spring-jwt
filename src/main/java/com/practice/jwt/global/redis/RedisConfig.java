@@ -1,4 +1,4 @@
-package com.practice.jwt.config.redis;
+package com.practice.jwt.global.redis;
 
 import lombok.RequiredArgsConstructor;
 import org.hibernate.mapping.Any;

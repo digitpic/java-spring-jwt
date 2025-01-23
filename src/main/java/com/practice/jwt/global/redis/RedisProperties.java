@@ -1,11 +1,11 @@
-package com.practice.jwt.config.redis;
+package com.practice.jwt.global.redis;
 
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
-@Configuration
+@Component
 @ConfigurationProperties(prefix = "spring.data.redis")
 @Getter
 @Setter
